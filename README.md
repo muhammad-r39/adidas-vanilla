@@ -1,2 +1,2 @@
 # nike-tennis-vanilla
-A sample project using Vanilla CSS
+A sample project from Figma design using Vanilla CSS
