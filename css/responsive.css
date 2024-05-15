@@ -46,20 +46,17 @@
 }
 
 @media  screen and (max-width: 600px) {
+    body {height: 930px;}
     .slider-nav-item img {max-width: 100px;}
     .slider-nav-item::before {width: 68px; height: 68px;}
     .slider-nav-item:hover::after {width: 68px; height: 68px;}
     .slider-arrow svg {width: 50px;}
     .product-description h2 {font-size: 40px;}
     .product-description h3 {font-size: 20px;}
-    .product-description p {font-size: 16px; padding: 0 20px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;}
+    .product-description p {font-size: 16px; }
     .product-description button {font-size: 16px; padding: 1rem 2rem;}
 }
 
 @media  screen and (max-width: 500px) {
     .slider-container {padding-top: 40px;}
-}
-
-@media  screen and (max-width: 400px) {
-    body {min-width: 400px; overflow-y: scroll;}
 }
