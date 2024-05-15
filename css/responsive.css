@@ -46,7 +46,7 @@
 }
 
 @media  screen and (max-width: 600px) {
-    body {height: 930px;}
+    body {height: 920px;}
     .slider-nav-item img {max-width: 100px;}
     .slider-nav-item::before {width: 68px; height: 68px;}
     .slider-nav-item:hover::after {width: 68px; height: 68px;}
