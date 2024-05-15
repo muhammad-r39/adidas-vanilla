@@ -3,6 +3,10 @@
     -webkit-box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 .flex {
     display: flex;
     display: -webkit-flex;
