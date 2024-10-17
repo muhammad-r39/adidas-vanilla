@@ -173,6 +173,12 @@
     font-size: 16px;
     padding: 1rem 2rem;
   }
+  .arrow-left {
+    transform: rotate(180deg) translateY(34px);
+  }
+  .arrow-right {
+    transform: translateY(-30px);
+  }
 }
 
 @media screen and (max-width: 500px) {
